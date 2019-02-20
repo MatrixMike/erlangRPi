@@ -1,4 +1,4 @@
--module(helloworld).
+-module(calculate1).
 %-compile(export_all).
 -export([start/0]).
 calculate(0) -> 1;
