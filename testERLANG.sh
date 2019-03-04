@@ -7,5 +7,7 @@ erlc calculate1.erl
 erl -noshell -s helloworld start1 -s init stop 
 erl -s helloworld start1 -s init stop -noshell
 erl -s helloworld start1 -s init stop -noshell | wc
+erlc list_comp.erl
+erl -s list_comp run -s init stop -noshell
 
 
