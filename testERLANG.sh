@@ -12,6 +12,6 @@ erl -s list_comp run -s init stop -noshell
 erlc values1.erl
 # next line needs fixing
 erl -s values1 show -s  stop -noshell
-
+erl -noshell -eval 'io:fwrite("hello there\n"), init:stop().'
 
 
